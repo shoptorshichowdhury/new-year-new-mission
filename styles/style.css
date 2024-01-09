@@ -152,12 +152,13 @@ header {
     max-width: 557px;
     margin-bottom: 48px;
 }
-
+.welcome-img{
+    max-width: 315px;
+}
 
 .welcome-img img {
     width: 100%;
-    max-width: 315px;
-    padding: 68px 0;
+    padding: 126px 0;
 }
 
 .welcome-btn {
@@ -511,6 +512,7 @@ header {
     outline: none;
 }
 
+
 .news-searchbar .news-btn {
     width: 210px;
     height: 72px;
@@ -565,8 +567,8 @@ footer {
     gap: 10px;
 }
 
-.container-foot hr {
-    color: rgba(85, 83, 83, 0.15);
+.foot hr {
+    color: rgba(102, 97, 97, 0.329);
     width: 1320px;
     height: 1px;
     margin: 0 auto;
