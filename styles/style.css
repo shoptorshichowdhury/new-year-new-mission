@@ -531,7 +531,7 @@ header {
     border: none;
 }
 
-.news-btn:hover {
+#newslater .news-btn:hover {
     background-color: white;
     color: red;
     transition: 1s all;
