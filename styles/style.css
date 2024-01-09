@@ -153,13 +153,8 @@ header {
     margin-bottom: 48px;
 }
 
-.welcome-img {
-    max-width: 315px;
-}
-
-.welcome-img img {
-    width: 100%;
-    padding: 126px 0;
+.welcome-container img {
+    padding: 68px 0; 
 }
 
 .welcome-btn {
