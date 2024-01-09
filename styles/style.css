@@ -553,7 +553,9 @@ footer {
     padding-top: 120px;
     padding-bottom: 50px;
 }
-
+.contact{
+    padding-right: 135px;
+}
 .area {
     max-width: 375px;
 }
@@ -574,12 +576,11 @@ footer {
     gap: 16px;
 }
 
-.foot hr {
-    color: rgba(102, 97, 97, 0.329);
-    width: 1320px;
-    height: 1px;
-    margin: 0 auto;
+.foot hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
+    
+
 
 .social-media {
     display: flex;
