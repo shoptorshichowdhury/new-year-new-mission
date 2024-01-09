@@ -152,7 +152,8 @@ header {
     max-width: 557px;
     margin-bottom: 48px;
 }
-.welcome-img{
+
+.welcome-img {
     max-width: 315px;
 }
 
@@ -173,7 +174,8 @@ header {
     border: none;
     padding-left: 20px;
 }
-.welcome-btn:hover{
+
+.welcome-btn:hover {
     color: yellow;
     transition: 1s all;
 }
@@ -229,7 +231,8 @@ header {
     text-transform: uppercase;
     border: none;
 }
-.notification-btn:hover{
+
+.notification-btn:hover {
     background-color: white;
     color: red;
     transition: 1s all;
@@ -433,7 +436,7 @@ header {
     transition: 1s;
 }
 
-.imgbox1:hover{
+.imgbox1:hover {
     transform: scale(1.1);
     z-index: 2;
 }
@@ -452,10 +455,11 @@ header {
     transition: 1s;
 }
 
-.imgbox2:hover{
+.imgbox2:hover {
     transform: scale(1.1);
     z-index: 2;
 }
+
 /* newslater section  */
 #newslater {
     margin-bottom: 120px;
@@ -493,19 +497,19 @@ header {
     margin: 0 auto;
 }
 
-.news-searchbar {
-    text-align: center;
+#newslater form {
+    max-width: 648px;
     padding-bottom: 80px;
+    display: flex;
+    margin: 0 auto;
 }
 
-.news-searchbar input {
-    width: 648px;
-    height: 72px;
-    border-radius: 50px 0px 0px 50px;
-    background: #FFF;
+#newslater form input {
+    flex-grow: 1;
     border: none;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
@@ -513,7 +517,7 @@ header {
 }
 
 
-.news-searchbar .news-btn {
+#newslater .news-btn {
     width: 210px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
@@ -526,12 +530,14 @@ header {
     text-transform: capitalize;
     border: none;
 }
-.news-btn:hover{
+
+.news-btn:hover {
     background-color: white;
     color: red;
     transition: 1s all;
 
 }
+
 /* footer section  */
 footer {
     background: #070211;
