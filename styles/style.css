@@ -564,19 +564,19 @@ footer {
 }
 
 .mob {
-    max-width: 222px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2px;
-}
-
-.web {
     max-width: 235px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 3px;
+    gap: 16px;
+}
+
+.web {
+    max-width: 245px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 
 .foot hr {
