@@ -360,7 +360,8 @@ header {
     max-width: 228px;
     position: relative;
     bottom: 100px;
-    left: 90px;
+    right: 100px;
+    z-index: 1;
 }
 
 .holiday-images .coupon-img img {
@@ -369,11 +370,9 @@ header {
 
 .holiday-images .surprise-img {
     max-width: 429px;
-    margin-bottom: 225px;
-}
-
-.holiday-images .surprise-img img {
-    width: 100%;
+    margin-bottom: 229px;
+    position: relative;
+    right: 219px;
 }
 
 /* portfolio section  */
